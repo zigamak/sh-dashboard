@@ -1,8 +1,10 @@
-import topBar from './components/topBar/index';
+import Topbar from './components/topbar/Topbar';
 function App() {
   return (
     <div className='App'>
-      Hello <topBar/>
+        
+        
+       <Topbar />
     </div>
   );
 }
