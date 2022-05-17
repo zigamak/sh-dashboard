@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import "./product.css";
-import Charts from '../../components/charts/Charts'
+import Charts from '../../components/charts/charts'
 import {productData} from "../../dummyData"
 import { Publish } from "@material-ui/icons";
 import React from 'react';
