@@ -1,6 +1,6 @@
 import React from 'react'
 import "./home.css"
-import Charts from '../../components/charts/charts'
+import Charts from '../../components/charts/Charts'
 import Featuredinfo from '../../components/featuredinfo/Featuredinfo'
 import {userData} from '../../dummyData';
 import WidgetSm from '../../components/widgetSm/WidgetSm';
