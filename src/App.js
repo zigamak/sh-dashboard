@@ -1,9 +1,8 @@
-import Sidebar from "./components/sidebar/sidebar";
+import Sidebar from "./components/sidebar/Sidebar";
 import Topbar from "./components/topbar/Topbar";
 import "./App.css";
-import Home from "./pages/home/home";
-import { BrowserRouter as Router, BrowserRouter as Routes, Route } from "react-router-dom";
-
+import Home from "./pages/home/Home";
+import { BrowserRouter as Router,BrowserRouter as Routes, Route } from "react-router-dom";
 import UserList from "./pages/userList/UserList";
 import User from "./pages/user/User";
 import NewUser from "./pages/newUser/NewUser";
