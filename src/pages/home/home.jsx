@@ -1,4 +1,4 @@
-import Chart from "../../components/chart/Chart";
+import Chart from "../../components/chart/Charts";
 import FeaturedInfo from "../../components/featuredInfo/FeaturedInfo";
 import "./home.css";
 import { userData } from "../../dummyData";
