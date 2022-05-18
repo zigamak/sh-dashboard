@@ -6,15 +6,6 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 
 export default function ProductList() {
-  const fetchPost = async () =>{
-    const response = await fetch('https://fakerapi.it/api/v1/products?_quantity=1&_taxes=12&_categories_type=uuid')
-    .then (response =>response.json())
-    console.log(response)
-    const jsonData= await response.json()
-    console.log(jsonData)
-  }
-
-  fetchPost()
   const [data, setData] = useState(productRows);
 
   const handleDelete = (id) => {

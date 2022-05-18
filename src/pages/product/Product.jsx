@@ -1,9 +1,8 @@
 import { Link } from "react-router-dom";
 import "./product.css";
-import Charts from '../../components/charts/Charts'
+import Chart from "../../components/chart/Chart"
 import {productData} from "../../dummyData"
 import { Publish } from "@material-ui/icons";
-import React from 'react';
 
 export default function Product() {
   return (
@@ -16,7 +15,7 @@ export default function Product() {
       </div>
       <div className="productTop">
           <div className="productTopLeft">
-              <Charts data={productData} dataKey="Sales" title="Sales Performance"/>
+              <Chart data={productData} dataKey="Sales" title="Sales Performance"/>
           </div>
           <div className="productTopRight">
               <div className="productInfoTop">

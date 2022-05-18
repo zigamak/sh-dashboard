@@ -1,4 +1,3 @@
-import React from 'react';
 import "./widgetSm.css";
 import { Visibility } from "@material-ui/icons";
 
